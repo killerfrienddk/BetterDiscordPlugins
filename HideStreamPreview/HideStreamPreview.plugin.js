@@ -1,12 +1,11 @@
 /**
  * @name HideStreamPreview
- * @author blurrpy
+ * @author blurrpy (modified by) KillerFRIEND 
  * @description Hide your own stream preview in multistream calls.
- * @version 0.0.4
- * @authorLink https://github.com/danegottwald
- * @website https://github.com/danegottwald
- * @donate https://www.paypal.com/paypalme/danegottwald
- * @source https://raw.githubusercontent.com/danegottwald/BetterDiscordPlugins/main/HideStreamPreview/HideStreamPreview.plugin.js
+ * @version 0.0.5
+ * @authorLink https://github.com/killerfrienddk
+ * @website https://github.com/killerfrienddk
+ * @source https://raw.githubusercontent.com/killerfrienddk/BetterDiscordPlugins/main/HideStreamPreview/HideStreamPreview.plugin.js
  */
 
 const fs = require("fs");
@@ -23,8 +22,8 @@ const config = {
         }],
         "version": "0.0.4",
         "description": "Hide your own stream preview when screen sharing with multiple users",
-        "github": "https://github.com/danegottwald",
-        "github_raw": "https://raw.githubusercontent.com/danegottwald/BetterDiscordPlugins/main/HideStreamPreview/HideStreamPreview.plugin.js"
+        "github": "https://github.com/killerfrienddk",
+        "github_raw": "https://raw.githubusercontent.com/killerfrienddk/BetterDiscordPlugins/main/HideStreamPreview/HideStreamPreview.plugin.js"
     },
     "changelog": [
         { "title": "Updates!", "items": ["Removed deprecated DiscordAPI use", "Bug fixes"] },
@@ -82,7 +81,7 @@ module.exports = !global.ZeresPluginLibrary ? class {
 
         onStart() {
             // Check for Plugin Updates
-            PluginUpdater.checkForUpdate(this.getName(), this.getVersion(), "https://raw.githubusercontent.com/danegottwald/BetterDiscordPlugins/main/HideStreamPreview/HideStreamPreview.plugin.js");
+            PluginUpdater.checkForUpdate(this.getName(), this.getVersion(), "https://raw.githubusercontent.com/killerfrienddk/BetterDiscordPlugins/main/HideStreamPreview/HideStreamPreview.plugin.js");
 
             // Load Settings from Config on Startup
             Object.entries(PluginUtilities.loadData("HideStreamPreview", "settings", {})).forEach(([setting, value]) => {
