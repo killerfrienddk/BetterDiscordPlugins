@@ -1,6 +1,7 @@
-# [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord) Plugins
+# [BetterDiscord](https://github.com/killerfrienddk/BetterDiscordPlugins) Plugins
 
 A (possibly soon to be) collection of Plugins for BetterDiscord
 
 ## Plugins
- - [HideStreamPreview](https://github.com/danegottwald/BetterDiscordPlugins/tree/main/HideStreamPreview)
+ - [HideStreamPreview Original Version](https://github.com/danegottwald/BetterDiscordPlugins)
+ - [HideStreamPreview](https://github.com/killerfrienddk/BetterDiscordPlugins/tree/main/HideStreamPreview)
